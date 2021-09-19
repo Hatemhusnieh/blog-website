@@ -3,7 +3,7 @@
 header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   padding-left: 5%;
   background-color: #520d50;
@@ -16,4 +16,16 @@ header h3 {
   font-size: 2rem;
   font-weight: bolder;
   height: fit-content;
+}
+
+header div a {
+  font-size: 1.5rem;
+  color: #2eecad;
+  cursor: pointer;
+}
+header div {
+  transition: ease-in-out 0.3s;
+}
+header div:hover {
+  transform: rotate(-15deg);
 }

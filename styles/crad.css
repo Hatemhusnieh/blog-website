@@ -68,3 +68,14 @@ main {
   background-color: #2eecad;
   cursor: pointer;
 }
+
+@media (min-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
