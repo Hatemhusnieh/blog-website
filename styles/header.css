@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  background-color: #520d50;
+  color: #2eecad;
+}
+
+header h3 {
+  margin: 0;
+  font-family: 'Grey Qo', cursive;
+  font-size: 2rem;
+  font-weight: bolder;
+  height: fit-content;
+}
