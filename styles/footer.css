@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
 footer {
   display: flex;
   flex-direction: row;
@@ -6,4 +8,6 @@ footer {
   padding-left: 5%;
   background-color: #520d50;
   color: #2eecad;
+  font-family: 'Grey Qo', cursive;
+  font-size: 1.5em;
 }

@@ -11,8 +11,24 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.1fr 1fr 0.1fr;
+  grid-template-rows: 0.1fr 0.8fr 0.1fr;
+  grid-template-areas:
+    'nav'
+    'cards'
+    'ft';
   justify-items: start;
   background-color: #2eecad;
   color: #520d50;
+}
+
+header {
+  grid-area: nav;
+}
+
+main {
+  grid-area: cards;
+}
+
+footer {
+  grid-area: ft;
 }
